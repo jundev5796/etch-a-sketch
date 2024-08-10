@@ -20,4 +20,5 @@ body {
   border: 1px solid black;
   height: 50px;
   width: 50px;
+  transition: background-color 0.3s;
 }
