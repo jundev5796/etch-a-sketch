@@ -4,6 +4,8 @@
 
 body {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -18,7 +20,5 @@ body {
 
 .grid {
   border: 1px solid black;
-  height: 50px;
-  width: 50px;
   transition: background-color 0.3s;
 }
